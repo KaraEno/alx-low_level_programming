@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-*Main - Entry point
-* Description: 'the program's description'
-* Return : Always 0 (Success)
-*/
+ * Main - Entry point
+ * Description: 'writng some code'
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
