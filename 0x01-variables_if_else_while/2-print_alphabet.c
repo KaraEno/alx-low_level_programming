@@ -13,7 +13,7 @@ int main(void)
 	for (x = 'A'; x <= 'Z'; x++)
 	{
 		lwcase = tolower(x);
-		putchar("%c\n", lwcase);
+		putchar("%d\n", lwcase);
 	}
 	return (0);
 }
