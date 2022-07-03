@@ -7,13 +7,12 @@
 */
 int main(void)
 {
-	char x;
-	char lwcase;
+	int x;
 
 	for (x = 'A'; x <= 'Z'; x++)
 	{
-		lwcase = tolower(x);
-		putchar("%d\n", lwcase);
+		x = tolower(x);
+		putchar("%c\n", x);
 	}
 	return (0);
 }
