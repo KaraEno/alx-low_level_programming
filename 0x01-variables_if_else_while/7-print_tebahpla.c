@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
-*main- entry point
-* Description: 'print 1 to 9'
+* main- entry point
+* Description: 'a to z in reverse'
 * Return: Always 0 (Success)
 */
 int main(void)
 {
 	int x;
-
-	for (x = 1; x < 10; x++)
+	
+	for (x = 'z'; x >= 'a'; x--)
 		putchar(x);
 	putchar('\n');
 	return (0);
