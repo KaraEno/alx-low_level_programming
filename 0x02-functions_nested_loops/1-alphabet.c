@@ -5,7 +5,7 @@
 */
 void print_alphabet(void)
 {
-	int x;
+	char x;
 
 	for (x = '0'; x < '8'; x++)
 		_putchar(x);
