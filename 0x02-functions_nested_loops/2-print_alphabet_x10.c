@@ -1,18 +1,18 @@
 #include "main.h"
 /**
-* main- entry point
-* Description: 'print a to z 10 times'
-* Return: always 0 (success)
+* print_alphabet_x10 - 'function to print abc 10 times'
+* Return: Always 0 (Success)
 */
 void print_alphabet_x10(void)
 {
-	int x;
+	char x;
 	char y;
 
-	for (x = 0; x < 9; x++)
+	for (x = '0'; x <= '9'; x++)
 	{
 		for (y = 'a'; y <= 'z'; y++)
 			_putchar(y);
 		_putchar('\n');
 	}
 }
+
