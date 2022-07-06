@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
 * print_sign - 'greater than 0, 0, less than 0
 * @n: arg for the function
