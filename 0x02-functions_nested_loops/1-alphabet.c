@@ -4,7 +4,7 @@
 * Description: 'write a letter'
 * Return: Always return 0 (Success)
 */
-int main(void)
+void print_alphabet(void)
 {
 	int x;
 
