@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main"
+#include "main.h"
 /**
 * _atoi - convert string to integer
 * @s: char data type parameter
