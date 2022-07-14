@@ -5,12 +5,11 @@
 * @dest: char param
 * @src: char param
 * @n: int param
+* Return: 0
 */
 char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0, dest_len = 0;
-
-
 
 	while (dest[i++])
 
