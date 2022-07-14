@@ -3,9 +3,9 @@
 /**
 * *_strncpy - copy a string
 * @dest: stores the string copy
-* @src: source string 
+* @src: source string
 * @n: number of bytes
-* Return: 0:
+* Return: 0
 */
 char *_strncpy(char *dest, char *src, int n)
 
