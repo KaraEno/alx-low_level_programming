@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main"
+#include "main.h"
 /**
 * *_memset - fills constant with constany byte
 * @s: the position in memory to start from
@@ -11,7 +11,7 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	for (i = 0; n > 0; i++, n--)
+	for (i = 0; i < n; i++)
 		s[i] = b;
 	return (s);
 }
