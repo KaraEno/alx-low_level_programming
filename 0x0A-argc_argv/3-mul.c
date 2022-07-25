@@ -8,18 +8,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int a = atoi(argv[1]);
-	int b = atoi(argv[2]);
-	int c = a * b;
+	int a, b, c;
 
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
+
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	c = num1 * num2;
+
 	printf("%d\n", c);
+
 	return (0);
-	}
 }
