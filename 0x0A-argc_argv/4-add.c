@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * @argc: argument counter
- * @agrv: argument array
+ * @argv: argument array
  * Return: 0
  */
 
@@ -13,7 +13,7 @@ int main(int argc, char *argv)
 
 	for (i = 1; i < argc; i++)
 	{
-		if(!isdigit(argv[i]))
+		if (!isdigit(argv[i]))
 		{
 			printf("Error\n");
 			return (1);
@@ -21,6 +21,6 @@ int main(int argc, char *argv)
 		else
 		{
 			sum += atoi(argv[i]);
-			return 0;
+			return (0);
 		}
 	}
