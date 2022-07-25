@@ -5,7 +5,7 @@
  * @argc: argument counter
  * @argv: argument array
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int a = atoi(argv[1]) * atoi(argv[2]);
 	
