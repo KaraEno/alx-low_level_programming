@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * main - entry point
  * @argc: argument counter
@@ -10,6 +11,7 @@
 int main(int argc, char *argv)
 {
 	int sum = 0;
+	int i;
 
 	for (i = 1; i < argc; i++)
 	{
@@ -24,3 +26,4 @@ int main(int argc, char *argv)
 			return (0);
 		}
 	}
+}
