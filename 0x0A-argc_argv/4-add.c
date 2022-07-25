@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int sum = 0;
 	int i;
@@ -23,7 +23,8 @@ int main(int argc, char *argv)
 		else
 		{
 			sum += atoi(argv[i]);
-			return (0);
 		}
 	}
+	return (0);
+
 }
