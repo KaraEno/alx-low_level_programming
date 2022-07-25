@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - print number of argument
+ * main - entry point
  * @argc: argument count
  * @argv: argument array
+ * Return: 0
  */
 int main(int argc, char __attribute__((__unused__)) *argv[])
 {
