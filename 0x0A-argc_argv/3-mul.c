@@ -4,13 +4,14 @@
  * main - entry point
  * @argc: argument counter
  * @argv: argument array
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
 	int a = atoi(argv[1]);
 	int b = atoi(argv[2]);
 	int c = a * b;
-	
+
 	if (argc - 1 == 2)
 		printf("%d\n", c);
 	else if (argc != 3)
