@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include "dog.h"
 /**
 *init_dog - initializer
 *@d: struct to be initialized
