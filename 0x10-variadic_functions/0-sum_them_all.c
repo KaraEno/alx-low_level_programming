@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
@@ -6,11 +7,13 @@
 * @...: variable number of argument to be sumed up
 * Return: if n = 0, returns 0 else sum of arguments
 */
+
 int sum_them_all(const unsigned int n, ...)
 {
 	if (n == 0)
 		return (0);
 	int i;
+	int sum_up = 0;
 
 	va_list args;
 
@@ -18,14 +21,13 @@ int sum_them_all(const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		int sum = 0;
 
 		int j = va_arg(args, int);
 
-		sum = j + sum;
+		sum_up = j + sum_up;
 
 	}
 	va_end(args);
 
-	return (sum);
+	return (sum_up);
 }
